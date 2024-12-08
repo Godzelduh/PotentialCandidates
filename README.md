@@ -38,8 +38,10 @@ GIVEN a candidate search application *DONE*
 WHEN the candidate search page loads
 
 THEN the information for one candidate should be displayed, including the candidate's name, username, location, avatar, email, html_url, and company
+
 WHEN I click the "+" button
 THEN the candidate should be saved to the list of potential candidates and the next candidate's information should be displayed
+
 WHEN I click the "-" button
 THEN the next candidate's information should be displayed without saving the current candidate
 WHEN there are no candidates available to review

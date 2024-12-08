@@ -118,3 +118,27 @@ tbody tr:nth-child(odd) {
   width: 80vw;
   table-layout: fixed;
 }
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  background: white;
+
+    color: black;
+  padding: 2px 16px;
+}
+.bold-white-background {
+  background-color: white;
+  font-weight: bold;
+  color: black; /* Ensure text is visible on white background */
+  padding: 10px; /* Optional: Add some padding for better appearance */
+  border: 1px solid #ccc; /* Optional: Add a border for better definition */ }
