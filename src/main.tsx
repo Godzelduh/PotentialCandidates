@@ -4,6 +4,8 @@ import './index.css';
 
 import App from './App.tsx';
 import CandidateSearch from './pages/CandidateSearch.tsx';
+import TestPage from './pages/testSearch.tsx';
+import { TestSaved } from './pages/testSaved.tsx';
 import SavedCandidates from './pages/SavedCandidates.tsx';
 import ErrorPage from './pages/ErrorPage.tsx';
 
@@ -15,11 +17,13 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <CandidateSearch />,
+        element: <TestPage />,
+        // element: <CandidateSearch />,
       },
       {
         path: '/SavedCandidates',
-        element: <SavedCandidates />,
+        element: <TestSaved />,
+        // element: <SavedCandidates />,
       },
     ],
   },

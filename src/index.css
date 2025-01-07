@@ -12,7 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#root {
+  width: 100%;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -34,7 +36,6 @@ body {
   background-position: center center;
   margin: 0;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
 }
 
