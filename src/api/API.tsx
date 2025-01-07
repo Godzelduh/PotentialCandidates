@@ -1,5 +1,7 @@
 export interface User {
-  
+/**
+ * login is the username of the user
+ */  
 "login": string,
 "id": number,
 "node_id": string,

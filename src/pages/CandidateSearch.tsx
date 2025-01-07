@@ -4,6 +4,7 @@ import { searchGithub, searchGithubUser, User } from '../api/API';
 const CandidateSearch = () => {
 
   const [users, setUsers] = useState<User[]>([]);
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
 
   useEffect(() => {
     searchGithub().then((data) => {
